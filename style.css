@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(123, 72, 170);
+}
+
+.minhafoto img{
+    width: 350px;
+    height: 450px;
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+}
+h1{
+    color: rgb(244, 239, 250);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px #51266a;
+    
+}
+h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgba(56, 8, 101, 0.686) ;
+    
+}
+.texto1 h3{
+    font-size: 24px;
+    color: rgb(2, 2, 2);
+    background-color:rgba(182, 139, 223, 0.686);
+}
+.alinhar{
+    display: flex;
+    justify-content: space-around;   
+   
+    
+}
+.alinhar h3{
+    width: 1100px;
+}
