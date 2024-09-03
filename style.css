@@ -109,18 +109,40 @@ h3{
 .taekwondo img{
     height: 400px;
     width: 500px;
+    border-radius: 50px;
 }
 .parlamento img{
     height: 400px;
     width: 450px;
+    border-radius: 50px;
 }
 .acessorio img{
     height: 400px;
     width: 450px;
+    border-radius: 50px;
 }
 .alinhar2{
     display: flex;
     justify-content: space-around;
     
 }
+.alinhar2 img{
+    transition: box-shadow 0.5s;
+}
+.alinhar2 img:hover{
+    box-shadow: rgba(57, 2, 86, 0.4) 5px 5px, rgba(55, 2, 67, 0.3) 10px 10px, rgba(66, 5, 80, 0.2) 15px 15px, rgba(58, 5, 89, 0.1) 20px 20px, rgba(83, 4, 93, 0.05) 25px 25px;
+}
+.fotoloja img{
+    height: 450px;
+    width: 450px;
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+}
+.texto2 p{
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+    background-color:rgba(182, 139, 223, 0.686);
+    padding: 10px;
+}
+
+
 
