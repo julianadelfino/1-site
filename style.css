@@ -71,3 +71,30 @@ h3{
     box-shadow: rgba(57, 2, 86, 0.4) 5px 5px, rgba(55, 2, 67, 0.3) 10px 10px, rgba(66, 5, 80, 0.2) 15px 15px, rgba(58, 5, 89, 0.1) 20px 20px, rgba(83, 4, 93, 0.05) 25px 25px;
     object-fit: cover;
 }
+.imgsfilme img{
+    width: 250px;
+    height: 350px;
+    transition: box-shadow 0.5s;
+    
+
+}
+.imgsfilme img:hover{
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+}
+.imgsfilme{
+    display: flex;
+    justify-content: space-around;
+}
+.filme{
+    display: flex;
+    flex-direction: column;
+}
+.filme a{
+    color: rgb(250, 247, 247);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(43, 7, 76);
+}
