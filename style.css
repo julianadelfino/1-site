@@ -98,3 +98,29 @@ h3{
     margin: 10px;
     background-color: rgb(43, 7, 76);
 }
+.competencia p{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #420c5f;
+    text-shadow: 2px 2px #9a78b8;
+    padding: 10px;
+}
+.taekwondo img{
+    height: 400px;
+    width: 500px;
+}
+.parlamento img{
+    height: 400px;
+    width: 450px;
+}
+.acessorio img{
+    height: 400px;
+    width: 450px;
+}
+.alinhar2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
