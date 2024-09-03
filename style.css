@@ -27,17 +27,47 @@ h3{
     background-color:rgba(56, 8, 101, 0.686) ;
     
 }
-.texto1 h3{
+.texto1 p{
     font-size: 24px;
     color: rgb(2, 2, 2);
     background-color:rgba(182, 139, 223, 0.686);
+   
+    
 }
 .alinhar{
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
+    gap: 50px;
+    
+    
    
     
 }
 .alinhar h3{
-    width: 1100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    
+}
+.alinhar-imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.familia img{
+    width: 350px;
+    box-shadow: rgba(57, 2, 86, 0.4) 5px 5px, rgba(55, 2, 67, 0.3) 10px 10px, rgba(66, 5, 80, 0.2) 15px 15px, rgba(58, 5, 89, 0.1) 20px 20px, rgba(83, 4, 93, 0.05) 25px 25px;
+  
+    object-fit: cover;
+}
+.priminhos img{
+    width: 230px;
+    box-shadow: rgba(57, 2, 86, 0.4) 5px 5px, rgba(55, 2, 67, 0.3) 10px 10px, rgba(66, 5, 80, 0.2) 15px 15px, rgba(58, 5, 89, 0.1) 20px 20px, rgba(83, 4, 93, 0.05) 25px 25px;
+  
+    object-fit: cover;
+}
+.bests img{
+
+    height: 280px;
+    box-shadow: rgba(57, 2, 86, 0.4) 5px 5px, rgba(55, 2, 67, 0.3) 10px 10px, rgba(66, 5, 80, 0.2) 15px 15px, rgba(58, 5, 89, 0.1) 20px 20px, rgba(83, 4, 93, 0.05) 25px 25px;
+    object-fit: cover;
 }
